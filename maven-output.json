@@ -1,12 +1,182 @@
 {
   "reports" : {
-    "net.bytebuddy:byte-buddy-agent:jar:1.14.8:test" : {
-      "coordinates" : "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.8",
-      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.8?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
-    }
-  },
-  "vulnerable" : {
-    "fr.turri:aXMLRPC:jar:1.13.0:compile" : {
+    "org.apache.derby:derbyclient:jar:10.14.2.0:test" : {
+      "coordinates" : "pkg:maven/org.apache.derby/derbyclient@10.14.2.0",
+      "description" : "The Derby client JDBC driver, used to connect to a Derby server over a network connection.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.derby/derbyclient@10.14.2.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.commons:commons-configuration2:jar:2.8.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.commons/commons-configuration2@2.8.0",
+      "description" : "Tools to assist in the reading of configuration/preferences files in\n        various formats",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-configuration2@2.8.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.rnorth.duct-tape:duct-tape:jar:1.0.8:test" : {
+      "coordinates" : "pkg:maven/org.rnorth.duct-tape/duct-tape@1.0.8",
+      "description" : "General purpose resilience utilities for Java 8 (circuit breakers, timeouts, rate limiters, and handlers for unreliable or inconsistent results)",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.rnorth.duct-tape/duct-tape@1.0.8?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:crt-core:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/crt-core@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/crt-core@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "fr.turri:jISO8601:jar:0.2:test" : {
+      "coordinates" : "pkg:maven/fr.turri/jISO8601@0.2",
+      "description" : "Library to parse dates provided in format ISO-8601",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/fr.turri/jISO8601@0.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse:yasson:jar:3.0.3:test" : {
+      "coordinates" : "pkg:maven/org.eclipse/yasson@3.0.3",
+      "description" : "Eclipse Yasson. Reference implementation of JSR-367 (JSON-B).",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse/yasson@3.0.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:identity-spi:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/identity-spi@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/identity-spi@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.core:jackson-core:jar:2.15.3:compile" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.3",
+      "description" : "Core Jackson abstractions, basic JSON streaming API implementation",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.jacoco:org.jacoco.core:jar:0.8.10:test" : {
+      "coordinates" : "pkg:maven/org.jacoco/org.jacoco.core@0.8.10",
+      "description" : "JaCoCo Core",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.jacoco/org.jacoco.core@0.8.10?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:annotations:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/annotations@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/annotations@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-common:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-common@1.0.1",
+      "description" : "Kerby-kerb Common facilities for both client and server",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-common@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile" : {
+      "coordinates" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+      "description" : "A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.dropwizard.metrics:metrics-core:jar:3.2.4:compile" : {
+      "coordinates" : "pkg:maven/io.dropwizard.metrics/metrics-core@3.2.4",
+      "description" : "Metrics is a Java library which gives you unparalleled insight into what your code does in\n        production. Metrics provides a powerful toolkit of ways to measure the behavior of critical\n        components in your production environment.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.dropwizard.metrics/metrics-core@3.2.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-codec-http:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-codec-http@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-codec-http@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerby-xdr:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerby-xdr@1.0.1",
+      "description" : "Kerby XDR Project",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerby-xdr@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "jakarta.json.bind:jakarta.json.bind-api:jar:3.0.0:test" : {
+      "coordinates" : "pkg:maven/jakarta.json.bind/jakarta.json.bind-api@3.0.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/jakarta.json.bind/jakarta.json.bind-api@3.0.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-io:commons-io:jar:2.8.0:compile" : {
+      "coordinates" : "pkg:maven/commons-io/commons-io@2.8.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-io/commons-io@2.8.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.slf4j:slf4j-jdk14:jar:2.0.9:runtime" : {
+      "coordinates" : "pkg:maven/org.slf4j/slf4j-jdk14@2.0.9",
+      "description" : "The slf4j JDK14 binding",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.slf4j/slf4j-jdk14@2.0.9?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "net.bytebuddy:byte-buddy:jar:1.14.8:test" : {
+      "coordinates" : "pkg:maven/net.bytebuddy/byte-buddy@1.14.8",
+      "description" : "Byte Buddy is a Java library for creating Java classes at run time.\n        This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/net.bytebuddy/byte-buddy@1.14.8?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:aws-xml-protocol:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/aws-xml-protocol@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-xml-protocol@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.woodstox:woodstox-core:jar:5.4.0:compile" : {
+      "coordinates" : "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.4.0",
+      "description" : "Woodstox is a high-performance XML processor that\n        implements Stax (JSR-173), SAX2 and Stax2 APIs",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.woodstox/woodstox-core@5.4.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.parquet:parquet-column:jar:1.13.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.parquet/parquet-column@1.13.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.parquet/parquet-column@1.13.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty.websocket:websocket-client:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.51.v20230217",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:extension-manager-integration-test-java:jar:0.5.4:test" : {
+      "coordinates" : "pkg:maven/com.exasol/extension-manager-integration-test-java@0.5.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/extension-manager-integration-test-java@0.5.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-collections:commons-collections:jar:3.2.2:compile" : {
+      "coordinates" : "pkg:maven/commons-collections/commons-collections@3.2.2",
+      "description" : "Types that extend and augment the Java Collections Framework.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-collections/commons-collections@3.2.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:udf-api-java:jar:1.0.2:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/udf-api-java@1.0.2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/udf-api-java@1.0.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.parsson:parsson:jar:1.1.4:test" : {
+      "coordinates" : "pkg:maven/org.eclipse.parsson/parsson@1.1.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.parsson/parsson@1.1.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:edml-java:jar:1.2.0:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/edml-java@1.2.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/edml-java@1.2.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:third-party-jackson-core:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-resolver:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-resolver@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-resolver@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-identity:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-identity@1.0.1",
+      "description" : "Kerby-kerb Identity",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-identity@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:java-class-list-verifier:jar:0.2.5:test" : {
+      "coordinates" : "pkg:maven/com.exasol/java-class-list-verifier@0.2.5",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/java-class-list-verifier@0.2.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.jersey.inject:jersey-hk2:jar:2.40:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.40",
+      "description" : "HK2 InjectionManager implementation",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.40?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "javax.servlet.jsp:jsp-api:jar:2.1:runtime" : {
+      "coordinates" : "pkg:maven/javax.servlet.jsp/jsp-api@2.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/javax.servlet.jsp/jsp-api@2.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:aws-json-protocol:jar:2.21.4:test" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/aws-json-protocol@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-json-protocol@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.12.7:compile" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.12.7",
+      "description" : "Functionality to handle JSON input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.12.7?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.curator:curator-recipes:jar:5.2.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.curator/curator-recipes@5.2.0",
+      "description" : "All of the recipes listed on the ZooKeeper recipes doc (except two phase commit).",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.curator/curator-recipes@5.2.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.jersey.media:jersey-media-multipart:jar:2.40:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.jersey.media/jersey-media-multipart@2.40",
+      "description" : "Jersey Multipart entity providers support module.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.jersey.media/jersey-media-multipart@2.40?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "fr.turri:aXMLRPC:jar:1.13.0:test" : {
       "coordinates" : "pkg:maven/fr.turri/aXMLRPC@1.13.0",
       "description" : "Lightweight Java XML-RPC working also on Android.",
       "reference" : "https://ossindex.sonatype.org/component/pkg:maven/fr.turri/aXMLRPC@1.13.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
@@ -14,7 +184,952 @@
         "id" : "CVE-2020-36641",
         "displayName" : "CVE-2020-36641",
         "title" : "[CVE-2020-36641] CWE-611: Improper Restriction of XML External Entity Reference ('XXE')",
-        "description" : "A vulnerability classified as problematic was found in gturri aXMLRPC up to 1.12.0. This vulnerability affects the function ResponseParser of the file src/main/java/de/timroes/axmlrpc/ResponseParser.java. The manipulation leads to xml external entity reference. Upgrading to version 1.12.1 is able to address this issue. The name of the patch is ad6615b3ec41353e614f6ea5fdd5b046442a832b. It is recommended to upgrade the affected component. VDB-217450 is the identifier assigned to this vulnerability.\n\nSonatype's research suggests that this CVE's details differ from those defined at NVD. See https://ossindex.sonatype.org/vulnerability/CVE-2020-36641 for details",
+        "description" : "A vulnerability classified as problematic was found in gturri aXMLRPC up to 1.12.0. This vulnerability affects the function ResponseParser of the file src/main/java/de/timroes/axmlrpc/ResponseParser.java. The manipulation leads to xml external entity reference. Upgrading to version 1.12.1 is able to address this issue. The patch is identified as ad6615b3ec41353e614f6ea5fdd5b046442a832b. It is recommended to upgrade the affected component. VDB-217450 is the identifier assigned to this vulnerability.\n\nSonatype's research suggests that this CVE's details differ from those defined at NVD. See https://ossindex.sonatype.org/vulnerability/CVE-2020-36641 for details",
+        "cvssScore" : 9.8,
+        "cvssVector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "cwe" : "CWE-611",
+        "cve" : "CVE-2020-36641",
+        "reference" : "https://ossindex.sonatype.org/vulnerability/CVE-2020-36641?component-type=maven&component-name=fr.turri%2FaXMLRPC&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+        "externalReferences" : [ "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-36641", "https://www.tenable.com/cve/CVE-2020-36641" ]
+      } ]
+    },
+    "org.apache.parquet:parquet-common:jar:1.13.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.parquet/parquet-common@1.13.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.parquet/parquet-common@1.13.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.github.docker-java:docker-java-transport:jar:3.3.3:test" : {
+      "coordinates" : "pkg:maven/com.github.docker-java/docker-java-transport@3.3.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.github.docker-java/docker-java-transport@3.3.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.commons:commons-compress:jar:1.24.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.commons/commons-compress@1.24.0",
+      "description" : "Apache Commons Compress software defines an API for working with compression and archive formats.\n  These include: bzip2, gzip and ar, cpio, jar, tar, zip.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-compress@1.24.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:metrics-spi:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/metrics-spi@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/metrics-spi@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.google.code.findbugs:jsr305:jar:3.0.2:compile" : {
+      "coordinates" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "description" : "JSR305 Annotations for Findbugs",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.google.code.findbugs/jsr305@3.0.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.parquet:parquet-hadoop:jar:1.13.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.parquet/parquet-hadoop@1.13.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.parquet/parquet-hadoop@1.13.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apiguardian:apiguardian-api:jar:1.1.2:test" : {
+      "coordinates" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+      "description" : "@API Guardian",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apiguardian/apiguardian-api@1.1.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3",
+      "description" : "See http://wiki.glassfish.java.net/Wiki.jsp?page=JdkSpiOsgi for more information",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-codec-http2:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-codec-http2@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-codec-http2@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.reactivestreams:reactive-streams:jar:1.0.4:compile" : {
+      "coordinates" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+      "description" : "reactive-streams",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.reactivestreams/reactive-streams@1.0.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.github.docker-java:docker-java-api:jar:3.3.3:test" : {
+      "coordinates" : "pkg:maven/com.github.docker-java/docker-java-api@3.3.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.github.docker-java/docker-java-api@3.3.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-client:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-client@3.3.6",
+      "description" : "Apache Hadoop Client",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-client@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:exasol-testcontainers:jar:6.6.2:test" : {
+      "coordinates" : "pkg:maven/com.exasol/exasol-testcontainers@6.6.2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/exasol-testcontainers@6.6.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-core:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-core@1.0.1",
+      "description" : "Kerby-kerb core facilities",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-core@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "joda-time:joda-time:jar:2.8.1:test" : {
+      "coordinates" : "pkg:maven/joda-time/joda-time@2.8.1",
+      "description" : "Date and time library to replace JDK date handling",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/joda-time/joda-time@2.8.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.sun.jersey:jersey-core:jar:1.19.4:compile" : {
+      "coordinates" : "pkg:maven/com.sun.jersey/jersey-core@1.19.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.sun.jersey/jersey-core@1.19.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.parquet:parquet-encoding:jar:1.13.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.parquet/parquet-encoding@1.13.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.parquet/parquet-encoding@1.13.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.12.7:compile" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.12.7",
+      "description" : "Pile of code that is shared by all Jackson-based JAX-RS\nproviders.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.12.7?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-util:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-util@1.0.1",
+      "description" : "Kerby-kerb Utilities",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-util@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-yarn-common:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "jakarta.annotation:jakarta.annotation-api:jar:1.3.5:test" : {
+      "coordinates" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:aws-query-protocol:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/aws-query-protocol@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-query-protocol@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:checksums:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/checksums@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/checksums@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-transport-native-unix-common:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.100.Final",
+      "description" : "Static library which contains common unix utilities.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-transport-native-unix-common@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.objenesis:objenesis:jar:3.3:test" : {
+      "coordinates" : "pkg:maven/org.objenesis/objenesis@3.3",
+      "description" : "A library for instantiating Java objects",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.objenesis/objenesis@3.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop.thirdparty:hadoop-shaded-protobuf_3_7:jar:1.1.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop.thirdparty/hadoop-shaded-protobuf_3_7@1.1.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop.thirdparty/hadoop-shaded-protobuf_3_7@1.1.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.commons:commons-lang3:jar:3.12.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "description" : "Commons Lang, a package of Java utility classes for the\n        classes that are in java.lang's hierarchy, or are considered to be so\n        standard as to justify existence in java.lang.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-lang3@3.12.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty:jetty-webapp:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.51.v20230217",
+      "description" : "Jetty web application support",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:profiles:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/profiles@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/profiles@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "net.java.dev.jna:jna:jar:5.12.1:test" : {
+      "coordinates" : "pkg:maven/net.java.dev.jna/jna@5.12.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/net.java.dev.jna/jna@5.12.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.parquet:parquet-format-structures:jar:1.13.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.parquet/parquet-format-structures@1.13.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.parquet/parquet-format-structures@1.13.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty:jetty-util-ajax:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.51.v20230217",
+      "description" : "JSON/Ajax Utility classes for Jetty",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.junit.jupiter:junit-jupiter-params:jar:5.10.0:test" : {
+      "coordinates" : "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.0",
+      "description" : "\"Module \"\"junit-jupiter-params\"\" of JUnit 5.\"",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.curator:curator-client:jar:5.2.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.curator/curator-client@5.2.0",
+      "description" : "Low-level API",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.curator/curator-client@5.2.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.12.6:test" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.12.6",
+      "description" : "Support for reading and writing Concise Binary Object Representation\n([CBOR](https://www.rfc-editor.org/info/rfc7049)\nencoded data using Jackson abstractions (streaming API, data binding, tree model)",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.12.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.jcraft:jsch:jar:0.1.55:test" : {
+      "coordinates" : "pkg:maven/com.jcraft/jsch@0.1.55",
+      "description" : "JSch is a pure Java implementation of SSH2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.jcraft/jsch@0.1.55?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerby-pkix:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerby-pkix@1.0.1",
+      "description" : "Kerby PKIX Project",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerby-pkix@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.googlecode.javaewah:JavaEWAH:jar:1.2.3:test" : {
+      "coordinates" : "pkg:maven/com.googlecode.javaewah/JavaEWAH@1.2.3",
+      "description" : "The bit array data structure is implemented in Java as the BitSet class. Unfortunately, this fails to scale without compression.\n\nJavaEWAH is a word-aligned compressed variant of the Java bitset class. It uses a 64-bit run-length encoding (RLE) compression scheme.\n\nThe goal of word-aligned compression is not to achieve the best compression, but rather to improve query processing time. Hence, we try to save CPU cycles, maybe at the expense of storage. However, the EWAH scheme we implemented is always more efficient storage-wise than an uncompressed bitmap (implemented in Java as the BitSet class). Unlike some alternatives, javaewah does not rely on a patented scheme.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.googlecode.javaewah/JavaEWAH@1.2.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:ec2:jar:2.21.4:test" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/ec2@2.21.4",
+      "description" : "The AWS Java SDK for Amazon EC2 module holds the client classes that are used for communicating with\n        Amazon EC2 Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/ec2@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.junit.jupiter:junit-jupiter-engine:jar:5.10.0:test" : {
+      "coordinates" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0",
+      "description" : "\"Module \"\"junit-jupiter-engine\"\" of JUnit 5.\"",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:checksums-spi:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/checksums-spi@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/checksums-spi@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.httpcomponents:httpcore:jar:4.4.13:runtime" : {
+      "coordinates" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13",
+      "description" : "HttpComponents Core (blocking I/O)",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.40:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson@2.40",
+      "description" : "Jersey JSON Jackson entity providers support module.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson@2.40?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:cloudformation:jar:2.21.4:test" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/cloudformation@2.21.4",
+      "description" : "The AWS Java SDK for AWS CloudFormation module holds the client classes that are used for communicating\n        with AWS CloudFormation Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/cloudformation@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.google.code.gson:gson:jar:2.9.0:compile" : {
+      "coordinates" : "pkg:maven/com.google.code.gson/gson@2.9.0",
+      "description" : "Google Gson library",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.google.code.gson/gson@2.9.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.testcontainers:database-commons:jar:1.19.0:test" : {
+      "coordinates" : "pkg:maven/org.testcontainers/database-commons@1.19.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/database-commons@1.19.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.mockito:mockito-core:jar:5.6.0:test" : {
+      "coordinates" : "pkg:maven/org.mockito/mockito-core@5.6.0",
+      "description" : "Mock objects library for java",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.mockito/mockito-core@5.6.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:hamcrest-resultset-matcher:jar:1.6.1:test" : {
+      "coordinates" : "pkg:maven/com.exasol/hamcrest-resultset-matcher@1.6.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/hamcrest-resultset-matcher@1.6.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-codec:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-codec@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-codec@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.ion:ion-java:jar:1.0.2:test" : {
+      "coordinates" : "pkg:maven/software.amazon.ion/ion-java@1.0.2",
+      "description" : "An Java implementation of the Amazon Ion data notation.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.ion/ion-java@1.0.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-cli:commons-cli:jar:1.2:compile" : {
+      "coordinates" : "pkg:maven/commons-cli/commons-cli@1.2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-cli/commons-cli@1.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "javax.servlet:javax.servlet-api:jar:3.1.0:compile" : {
+      "coordinates" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/javax.servlet/javax.servlet-api@3.1.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.commons:commons-collections4:jar:4.4:test" : {
+      "coordinates" : "pkg:maven/org.apache.commons/commons-collections4@4.4",
+      "description" : "The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-collections4@4.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:json-utils:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/json-utils@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/json-utils@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:netty-nio-client:jar:2.21.4:runtime" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/netty-nio-client@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/netty-nio-client@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:endpoints-spi:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/endpoints-spi@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/endpoints-spi@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.testcontainers:jdbc:jar:1.19.0:test" : {
+      "coordinates" : "pkg:maven/org.testcontainers/jdbc@1.19.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/jdbc@1.19.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.javassist:javassist:jar:3.29.2-GA:test" : {
+      "coordinates" : "pkg:maven/org.javassist/javassist@3.29.2-GA",
+      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation\n     simple.  It is a class library for editing bytecodes in Java.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.javassist/javassist@3.29.2-GA?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:token-provider:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/token-provider@1.0.1",
+      "description" : "Token provider project",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/token-provider@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.testcontainers:junit-jupiter:jar:1.19.1:test" : {
+      "coordinates" : "pkg:maven/org.testcontainers/junit-jupiter@1.19.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/junit-jupiter@1.19.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.ibm.icu:icu4j:jar:68.1:compile" : {
+      "coordinates" : "pkg:maven/com.ibm.icu/icu4j@68.1",
+      "description" : "International Component for Unicode for Java (ICU4J) is a mature, widely used Java library\n    providing Unicode and Globalization support",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.ibm.icu/icu4j@68.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.deephaven:deephaven-csv:jar:0.12.0:compile" : {
+      "coordinates" : "pkg:maven/io.deephaven/deephaven-csv@0.12.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.deephaven/deephaven-csv@0.12.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "de.siegmar:fastcsv:jar:2.2.2:compile" : {
+      "coordinates" : "pkg:maven/de.siegmar/fastcsv@2.2.2",
+      "description" : "Ultra fast and simple RFC 4180 compliant CSV library.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/de.siegmar/fastcsv@2.2.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.junit.jupiter:junit-jupiter-api:jar:5.10.0:test" : {
+      "coordinates" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0",
+      "description" : "\"Module \"\"junit-jupiter-api\"\" of JUnit 5.\"",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.jline:jline:jar:3.9.0:compile" : {
+      "coordinates" : "pkg:maven/org.jline/jline@3.9.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.jline/jline@3.9.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.scala-lang:scala-library:jar:2.13.12:compile" : {
+      "coordinates" : "pkg:maven/org.scala-lang/scala-library@2.13.12",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.scala-lang/scala-library@2.13.12?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:virtual-schema-common-java:jar:17.0.0:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/virtual-schema-common-java@17.0.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/virtual-schema-common-java@17.0.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-mapreduce-client-core:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:virtual-schema-common-document:jar:9.4.2:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/virtual-schema-common-document@9.4.2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/virtual-schema-common-document@9.4.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jgit:org.eclipse.jgit:jar:6.7.0.202309050840-r:test" : {
+      "coordinates" : "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@6.7.0.202309050840-r",
+      "description" : "Repository access and algorithms",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jgit/org.eclipse.jgit@6.7.0.202309050840-r?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-codec:commons-codec:jar:1.15:compile" : {
+      "coordinates" : "pkg:maven/commons-codec/commons-codec@1.15",
+      "description" : "The codec package contains simple encoder and decoders for\n   various formats such as Base64 and Hexadecimal.  In addition to these\n   widely used encoders and decoders, the codec package also maintains a\n   collection of phonetic encoding utilities.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-codec/commons-codec@1.15?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:utils:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/utils@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/utils@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:test" : {
+      "coordinates" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.junit.platform:junit-platform-commons:jar:1.10.0:test" : {
+      "coordinates" : "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0",
+      "description" : "\"Module \"\"junit-platform-commons\"\" of JUnit 5.\"",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-auth:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-auth@3.3.6",
+      "description" : "Apache Hadoop Auth - Java HTTP SPNEGO",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-auth@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.jersey.core:jersey-client:jar:2.40:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.40",
+      "description" : "Jersey core client implementation",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.jersey.core/jersey-client@2.40?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:sdk-core:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/sdk-core@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sdk-core@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:lambda:jar:2.21.4:test" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/lambda@2.21.4",
+      "description" : "The AWS Java SDK for AWS Lambda module holds the client classes that are used for communicating with\n        AWS Lambda Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/lambda@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.github.docker-java:docker-java-transport-zerodep:jar:3.3.3:test" : {
+      "coordinates" : "pkg:maven/com.github.docker-java/docker-java-transport-zerodep@3.3.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.github.docker-java/docker-java-transport-zerodep@3.3.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-transport-classes-epoll:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-transport-classes-epoll@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.amazonaws:aws-java-sdk-s3:jar:1.12.570:test" : {
+      "coordinates" : "pkg:maven/com.amazonaws/aws-java-sdk-s3@1.12.570",
+      "description" : "The AWS Java SDK for Amazon S3 module holds the client classes that is used for communicating with Amazon Simple Storage Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.amazonaws/aws-java-sdk-s3@1.12.570?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-hdfs-client:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.6",
+      "description" : "Apache Hadoop HDFS Client",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.github.luben:zstd-jni:jar:1.5.0-1:compile" : {
+      "coordinates" : "pkg:maven/com.github.luben/zstd-jni@1.5.0-1",
+      "description" : "JNI bindings for Zstd native library that provides fast and high compression lossless algorithm for Java and all JVM languages.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.github.luben/zstd-jni@1.5.0-1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "net.bytebuddy:byte-buddy-agent:jar:1.14.8:test" : {
+      "coordinates" : "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.8",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.8?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-yarn-api:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.google.re2j:re2j:jar:1.1:compile" : {
+      "coordinates" : "pkg:maven/com.google.re2j/re2j@1.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.google.re2j/re2j@1.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.ow2.asm:asm-commons:jar:9.5:test" : {
+      "coordinates" : "pkg:maven/org.ow2.asm/asm-commons@9.5",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.ow2.asm/asm-commons@9.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.amazonaws:aws-java-sdk-core:jar:1.12.570:test" : {
+      "coordinates" : "pkg:maven/com.amazonaws/aws-java-sdk-core@1.12.570",
+      "description" : "The AWS SDK for Java - Core module holds the classes that is used by the individual service clients to interact with Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.amazonaws/aws-java-sdk-core@1.12.570?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:sql-statement-builder:jar:4.5.3:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/sql-statement-builder@4.5.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/sql-statement-builder@4.5.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-annotations:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-annotations@3.3.6",
+      "description" : "Apache Hadoop Annotations",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-annotations@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty.websocket:websocket-api:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:apache-client:jar:2.21.4:runtime" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/apache-client@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/apache-client@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-handler:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-handler@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-handler@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+      "vulnerabilities" : [ {
+        "id" : "CVE-2023-4586",
+        "displayName" : "CVE-2023-4586",
+        "title" : "[CVE-2023-4586] CWE-300: Channel Accessible by Non-Endpoint ('Man-in-the-Middle')",
+        "description" : "netty-handler - Improper Certificate Validation\n\nThe product does not adequately verify the identity of actors at both ends of a communication channel, or does not adequately ensure the integrity of the channel, in a way that allows the channel to be accessed or influenced by an actor that is not an endpoint.",
+        "cvssScore" : 6.5,
+        "cvssVector" : "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+        "cwe" : "CWE-300",
+        "cve" : "CVE-2023-4586",
+        "reference" : "https://ossindex.sonatype.org/vulnerability/CVE-2023-4586?component-type=maven&component-name=io.netty%2Fnetty-handler&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+        "externalReferences" : [ "https://docs.oracle.com/javase/8/docs/api/javax/net/ssl/SSLParameters.html#setEndpointIdentificationAlgorithm-java.lang.String-", "https://github.com/netty/netty/issues/8537", "https://github.com/netty/netty/issues/9930", "https://netty.io/4.1/api/io/netty/handler/ssl/SslContext.html#newHandler-io.netty.buffer.ByteBufAllocator-java.util.concurrent.Executor-" ]
+      } ]
+    },
+    "com.exasol:small-json-files-test-fixture:jar:0.1.7:test" : {
+      "coordinates" : "pkg:maven/com.exasol/small-json-files-test-fixture@0.1.7",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/small-json-files-test-fixture@0.1.7?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.curator:curator-framework:jar:5.2.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.curator/curator-framework@5.2.0",
+      "description" : "High-level API that greatly simplifies using ZooKeeper.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.curator/curator-framework@5.2.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-client:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-client@1.0.1",
+      "description" : "Kerby-kerb Client",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-client@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3:compile" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.3",
+      "description" : "Core annotations used for value types, used by Jackson databinding package.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.core:jackson-databind:jar:2.15.3:test" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.3",
+      "description" : "General data-binding functionality for Jackson: works on core streaming API",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:http-auth:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/http-auth@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile" : {
+      "coordinates" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13",
+      "description" : "Jackson is a high-performance JSON processor (parser, generator)",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.yetus:audience-annotations:jar:0.13.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.yetus/audience-annotations@0.13.0",
+      "description" : "Annotations for defining API boundaries and tools for managing javadocs",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.yetus/audience-annotations@0.13.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:extension-manager-client-java:jar:0.5.4:test" : {
+      "coordinates" : "pkg:maven/com.exasol/extension-manager-client-java@0.5.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/extension-manager-client-java@0.5.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.14.1:compile" : {
+      "coordinates" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.1",
+      "description" : "\"Support for using JAXB annotations as an alternative to \"\"native\"\" Jackson annotations, for configuring data binding.\"",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-simplekdc:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1",
+      "description" : "Kerb Simple Kdc",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish:jakarta.json:jar:module:2.0.1:runtime" : {
+      "coordinates" : "pkg:maven/org.glassfish/jakarta.json@2.0.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish/jakarta.json@2.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerby-util:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerby-util@1.0.1",
+      "description" : "Kerby common util, without any 3rd party dependency",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerby-util@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.jvnet.mimepull:mimepull:jar:1.9.15:test" : {
+      "coordinates" : "pkg:maven/org.jvnet.mimepull/mimepull@1.9.15",
+      "description" : "Provides a streaming API to access attachments parts in a MIME message.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.jvnet.mimepull/mimepull@1.9.15?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.jetbrains:annotations:jar:17.0.0:test" : {
+      "coordinates" : "pkg:maven/org.jetbrains/annotations@17.0.0",
+      "description" : "A set of annotations used for code inspection support and code documentation.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.jetbrains/annotations@17.0.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty.websocket:websocket-common:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:arns:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/arns@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/arns@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.slf4j:slf4j-reload4j:jar:1.7.36:compile" : {
+      "coordinates" : "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-net:commons-net:jar:3.9.0:compile" : {
+      "coordinates" : "pkg:maven/commons-net/commons-net@3.9.0",
+      "description" : "Apache Commons Net library contains a collection of network utilities and protocol implementations.\nSupported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-net/commons-net@3.9.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:db-fundamentals-java:jar:0.1.3:test" : {
+      "coordinates" : "pkg:maven/com.exasol/db-fundamentals-java@0.1.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/db-fundamentals-java@0.1.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.brsanthu:migbase64:jar:2.2:test" : {
+      "coordinates" : "pkg:maven/com.brsanthu/migbase64@2.2",
+      "description" : "MiGBase64 is a very fast and small Base64 Codec written in Java",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.brsanthu/migbase64@2.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:performance-test-recorder-java:jar:0.1.3:test" : {
+      "coordinates" : "pkg:maven/com.exasol/performance-test-recorder-java@0.1.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/performance-test-recorder-java@0.1.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.ow2.asm:asm-tree:jar:9.5:test" : {
+      "coordinates" : "pkg:maven/org.ow2.asm/asm-tree@9.5",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.ow2.asm/asm-tree@9.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "jakarta.json:jakarta.json-api:jar:2.1.2:compile" : {
+      "coordinates" : "pkg:maven/jakarta.json/jakarta.json-api@2.1.2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/jakarta.json/jakarta.json-api@2.1.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.amazonaws:jmespath-java:jar:1.12.570:test" : {
+      "coordinates" : "pkg:maven/com.amazonaws/jmespath-java@1.12.570",
+      "description" : "Implementation of the JMES Path JSON Query langauge for Java.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.amazonaws/jmespath-java@1.12.570?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.sun.jersey:jersey-servlet:jar:1.19.4:compile" : {
+      "coordinates" : "pkg:maven/com.sun.jersey/jersey-servlet@1.19.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.sun.jersey/jersey-servlet@1.19.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.opentest4j:opentest4j:jar:1.3.0:test" : {
+      "coordinates" : "pkg:maven/org.opentest4j/opentest4j@1.3.0",
+      "description" : "Open Test Alliance for the JVM",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.opentest4j/opentest4j@1.3.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-pool:commons-pool:jar:1.6:compile" : {
+      "coordinates" : "pkg:maven/commons-pool/commons-pool@1.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-pool/commons-pool@1.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.slf4j:slf4j-api:jar:2.0.9:compile" : {
+      "coordinates" : "pkg:maven/org.slf4j/slf4j-api@2.0.9",
+      "description" : "The slf4j API",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.slf4j/slf4j-api@2.0.9?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:http-auth-spi:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/http-auth-spi@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth-spi@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.hk2:hk2-utils:jar:2.6.1:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+      "description" : "${project.name}",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:exasol-jdbc:jar:7.1.20:test" : {
+      "coordinates" : "pkg:maven/com.exasol/exasol-jdbc@7.1.20",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/exasol-jdbc@7.1.20?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-beanutils:commons-beanutils:jar:1.9.4:compile" : {
+      "coordinates" : "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-beanutils/commons-beanutils@1.9.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerby-asn1:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerby-asn1@1.0.1",
+      "description" : "Kerby ASN1 Project",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerby-asn1@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:http-auth-aws:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/http-auth-aws@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth-aws@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:iam:jar:2.21.4:test" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/iam@2.21.4",
+      "description" : "The AWS Java SDK for AWS IAM module holds the client classes that are used for communicating with AWS\n        Identity and Access Management Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/iam@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.codehaus.woodstox:stax2-api:jar:4.2.1:compile" : {
+      "coordinates" : "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1",
+      "description" : "Stax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.junit.platform:junit-platform-engine:jar:1.10.0:test" : {
+      "coordinates" : "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0",
+      "description" : "\"Module \"\"junit-platform-engine\"\" of JUnit 5.\"",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.antlr:antlr4-runtime:jar:4.9.3:compile" : {
+      "coordinates" : "pkg:maven/org.antlr/antlr4-runtime@4.9.3",
+      "description" : "The ANTLR 4 Runtime",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.antlr/antlr4-runtime@4.9.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-yarn-client:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-admin:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-admin@1.0.1",
+      "description" : "Kerby-kerb Admin facilities",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-admin@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-common:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-common@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-common@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.xerial.snappy:snappy-java:jar:1.1.10.5:compile" : {
+      "coordinates" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.5",
+      "description" : "snappy-java: A fast compression/decompression library",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.xerial.snappy/snappy-java@1.1.10.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.jacoco:org.jacoco.agent:jar:runtime:0.8.10:test" : {
+      "coordinates" : "pkg:maven/org.jacoco/org.jacoco.agent@0.8.10",
+      "description" : "JaCoCo Agent",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.jacoco/org.jacoco.agent@0.8.10?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:parquet-io-java:jar:2.0.5:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/parquet-io-java@2.0.5",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/parquet-io-java@2.0.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.parquet:parquet-jackson:jar:1.13.1:runtime" : {
+      "coordinates" : "pkg:maven/org.apache.parquet/parquet-jackson@1.13.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.parquet/parquet-jackson@1.13.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty:jetty-xml:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.51.v20230217",
+      "description" : "The jetty xml utilities.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty/jetty-xml@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:bucketfs-java:jar:3.1.0:test" : {
+      "coordinates" : "pkg:maven/com.exasol/bucketfs-java@3.1.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/bucketfs-java@3.1.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "nl.jqno.equalsverifier:equalsverifier:jar:3.15.2:test" : {
+      "coordinates" : "pkg:maven/nl.jqno.equalsverifier/equalsverifier@3.15.2",
+      "description" : "EqualsVerifier can be used in JUnit 4 unit tests to verify whether the contract for the equals and hashCode methods is met.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/nl.jqno.equalsverifier/equalsverifier@3.15.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.leadpony.justify:justify:jar:3.1.0:compile" : {
+      "coordinates" : "pkg:maven/org.leadpony.justify/justify@3.1.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.leadpony.justify/justify@3.1.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:udf-debugging-java:jar:0.6.11:test" : {
+      "coordinates" : "pkg:maven/com.exasol/udf-debugging-java@0.6.11",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/udf-debugging-java@0.6.11?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.ow2.asm:asm:jar:9.5:test" : {
+      "coordinates" : "pkg:maven/org.ow2.asm/asm@9.5",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.ow2.asm/asm@9.5?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "junit:junit:jar:4.13.2:test" : {
+      "coordinates" : "pkg:maven/junit/junit@4.13.2",
+      "description" : "JUnit is a regression testing framework written by Erich Gamma and Kent Beck.\n        It is used by the developer who implements unit tests in Java.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/junit/junit@4.13.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:http-client-spi:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/http-client-spi@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-client-spi@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.logicng:logicng:jar:2.4.1:compile" : {
+      "coordinates" : "pkg:maven/org.logicng/logicng@2.4.1",
+      "description" : "The Next Generation Logic Library",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.logicng/logicng@2.4.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-common:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-common@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-common@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.opencsv:opencsv:jar:5.8:test" : {
+      "coordinates" : "pkg:maven/com.opencsv/opencsv@5.8",
+      "description" : "A simple library for reading and writing CSV in Java",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.opencsv/opencsv@5.8?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.sun.jersey:jersey-client:jar:1.19.4:compile" : {
+      "coordinates" : "pkg:maven/com.sun.jersey/jersey-client@1.19.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.sun.jersey/jersey-client@1.19.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:auth:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/auth@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/auth@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:database-cleaner:jar:1.1.0:test" : {
+      "coordinates" : "pkg:maven/com.exasol/database-cleaner@1.1.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/database-cleaner@1.1.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.40:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@2.40",
+      "description" : "Jersey extension module providing support for Entity Data Filtering.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@2.40?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.commons:commons-text:jar:1.10.0:compile" : {
+      "coordinates" : "pkg:maven/org.apache.commons/commons-text@1.10.0",
+      "description" : "Apache Commons Text is a library focused on algorithms working on strings.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-text@1.10.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-buffer:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-buffer@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-buffer@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.commons:commons-math3:jar:3.1.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.commons/commons-math3@3.1.1",
+      "description" : "The Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-math3@3.1.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.amazonaws:aws-java-sdk-kms:jar:1.12.570:test" : {
+      "coordinates" : "pkg:maven/com.amazonaws/aws-java-sdk-kms@1.12.570",
+      "description" : "The AWS Java SDK for AWS KMS module holds the client classes that is used for communicating with AWS Key Management Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.amazonaws/aws-java-sdk-kms@1.12.570?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.hk2:hk2-api:jar:2.6.1:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+      "description" : "${project.name}",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.nimbusds:nimbus-jose-jwt:jar:9.8.1:compile" : {
+      "coordinates" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.8.1",
+      "description" : "Nimbus JOSE+JWT is a Java library that implements the Javascript Object Signing and Encryption (JOSE) spec suite and the closely related JSON Web Token (JWT) spec.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.nimbusds/nimbus-jose-jwt@9.8.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:protocol-core:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/protocol-core@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/protocol-core@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:exasol-test-setup-abstraction-java:jar:2.0.4:test" : {
+      "coordinates" : "pkg:maven/com.exasol/exasol-test-setup-abstraction-java@2.0.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/exasol-test-setup-abstraction-java@2.0.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.thoughtworks.paranamer:paranamer:jar:2.3:compile" : {
+      "coordinates" : "pkg:maven/com.thoughtworks.paranamer/paranamer@2.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.thoughtworks.paranamer/paranamer@2.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.hamcrest:hamcrest-core:jar:1.3:test" : {
+      "coordinates" : "pkg:maven/org.hamcrest/hamcrest-core@1.3",
+      "description" : "This is the core API of hamcrest matcher framework \n\t\tto be used by third-party framework providers. \n\t\tThis includes the a foundation set of matcher\n\t\timplementations for common operations.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.hamcrest/hamcrest-core@1.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:aws-core:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/aws-core@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-core@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:test-db-builder-java:jar:3.5.1:test" : {
+      "coordinates" : "pkg:maven/com.exasol/test-db-builder-java@3.5.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/test-db-builder-java@3.5.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty:jetty-servlet:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.51.v20230217",
+      "description" : "Jetty Servlet Container",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "commons-logging:commons-logging:jar:1.1.3:compile" : {
+      "coordinates" : "pkg:maven/commons-logging/commons-logging@1.1.3",
+      "description" : "Commons Logging is a thin adapter allowing configurable bridging to other,\n    well known logging systems.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/commons-logging/commons-logging@1.1.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:s3:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/s3@2.21.4",
+      "description" : "The AWS Java SDK for Amazon S3 module holds the client classes that are used for communicating with\n        Amazon Simple Storage Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/s3@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "ch.qos.reload4j:reload4j:jar:1.2.22:compile" : {
+      "coordinates" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.22",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/ch.qos.reload4j/reload4j@1.2.22?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.hamcrest:hamcrest:jar:2.2:test" : {
+      "coordinates" : "pkg:maven/org.hamcrest/hamcrest@2.2",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.hamcrest/hamcrest@2.2?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:error-reporting-java:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/com.exasol/error-reporting-java@1.0.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/error-reporting-java@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:regions:jar:2.21.4:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/regions@2.21.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/regions@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:virtual-schema-common-document-files:test-jar:tests:7.3.4:test" : {
+      "coordinates" : "pkg:maven/com.exasol/virtual-schema-common-document-files@7.3.4",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/virtual-schema-common-document-files@7.3.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.testcontainers:localstack:jar:1.19.1:test" : {
+      "coordinates" : "pkg:maven/org.testcontainers/localstack@1.19.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/localstack@1.19.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerby-config:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+      "description" : "Kerby config library",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerby-config@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "dnsjava:dnsjava:jar:2.1.7:compile" : {
+      "coordinates" : "pkg:maven/dnsjava/dnsjava@2.1.7",
+      "description" : "dnsjava is an implementation of DNS in Java. It supports all defined record types (including the DNSSEC types), and unknown types. It can be used for queries, zone transfers, and dynamic updates. It includes a cache which can be used by clients, and a minimal implementation of a server. It supports TSIG authenticated messages, partial DNSSEC verification, and EDNS0.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/dnsjava/dnsjava@2.1.7?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-server:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-server@1.0.1",
+      "description" : "Kerby-kerb Server",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-server@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.airlift:aircompressor:jar:0.21:compile" : {
+      "coordinates" : "pkg:maven/io.airlift/aircompressor@0.21",
+      "description" : "Compression algorithms",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.airlift/aircompressor@0.21?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.jersey.core:jersey-common:jar:2.40:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.jersey.core/jersey-common@2.40",
+      "description" : "Jersey core common packages",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.jersey.core/jersey-common@2.40?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.glassfish.hk2:hk2-locator:jar:2.6.1:test" : {
+      "coordinates" : "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+      "description" : "${project.name}",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.kerby:kerb-crypto:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.kerby/kerb-crypto@1.0.1",
+      "description" : "Kerby-kerb Crypto facility",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.kerby/kerb-crypto@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.netty:netty-transport:jar:4.1.100.Final:runtime" : {
+      "coordinates" : "pkg:maven/io.netty/netty-transport@4.1.100.Final",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.netty/netty-transport@4.1.100.Final?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop.thirdparty:hadoop-shaded-guava:jar:1.1.1:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop.thirdparty/hadoop-shaded-guava@1.1.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop.thirdparty/hadoop-shaded-guava@1.1.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.avro:avro:jar:1.7.7:compile" : {
+      "coordinates" : "pkg:maven/org.apache.avro/avro@1.7.7",
+      "description" : "Avro core components",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.avro/avro@1.7.7?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+      "vulnerabilities" : [ {
+        "id" : "CVE-2023-39410",
+        "displayName" : "CVE-2023-39410",
+        "title" : "[CVE-2023-39410] CWE-502: Deserialization of Untrusted Data",
+        "description" : "When deserializing untrusted or corrupted data, it is possible for a reader to consume memory beyond the allowed constraints and thus lead to out of memory on the system.\n\nThis issue affects Java applications using Apache Avro Java SDK up to and including 1.11.2.  Users should update to apache-avro version 1.11.3 which addresses this issue.\n\n",
+        "cvssScore" : 7.5,
+        "cvssVector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "cwe" : "CWE-502",
+        "cve" : "CVE-2023-39410",
+        "reference" : "https://ossindex.sonatype.org/vulnerability/CVE-2023-39410?component-type=maven&component-name=org.apache.avro%2Favro&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+        "externalReferences" : [ "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-39410", "https://github.com/apache/avro/pull/2432", "https://issues.apache.org/jira/browse/AVRO-3819", "https://lists.apache.org/thread/q142wj99cwdd0jo5lvdoxzoymlqyjdds" ]
+      } ]
+    },
+    "software.amazon.eventstream:eventstream:jar:1.0.1:compile" : {
+      "coordinates" : "pkg:maven/software.amazon.eventstream/eventstream@1.0.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.eventstream/eventstream@1.0.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile" : {
+      "coordinates" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "software.amazon.awssdk:sts:jar:2.21.4:test" : {
+      "coordinates" : "pkg:maven/software.amazon.awssdk/sts@2.21.4",
+      "description" : "The AWS Java SDK for AWS STS module holds the client classes that are used for communicating with AWS\n        Security Token Service",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sts@2.21.4?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "io.swagger.core.v3:swagger-annotations:jar:2.2.17:test" : {
+      "coordinates" : "pkg:maven/io.swagger.core.v3/swagger-annotations@2.2.17",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/io.swagger.core.v3/swagger-annotations@2.2.17?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.eclipse.jetty:jetty-security:jar:9.4.51.v20230217:compile" : {
+      "coordinates" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.51.v20230217",
+      "description" : "Jetty security infrastructure",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty/jetty-security@9.4.51.v20230217?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.testcontainers:testcontainers:jar:1.19.1:test" : {
+      "coordinates" : "pkg:maven/org.testcontainers/testcontainers@1.19.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/testcontainers@1.19.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.httpcomponents:httpclient:jar:4.5.13:runtime" : {
+      "coordinates" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+      "description" : "HttpComponents Client (base module)",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "com.exasol:maven-project-version-getter:jar:1.2.0:test" : {
+      "coordinates" : "pkg:maven/com.exasol/maven-project-version-getter@1.2.0",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/com.exasol/maven-project-version-getter@1.2.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "org.apache.hadoop:hadoop-mapreduce-client-common:jar:3.3.6:compile" : {
+      "coordinates" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common@3.3.6",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common@3.3.6?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    },
+    "jakarta.activation:jakarta.activation-api:jar:1.2.1:runtime" : {
+      "coordinates" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1"
+    }
+  },
+  "vulnerable" : {
+    "org.apache.avro:avro:jar:1.7.7:compile" : {
+      "coordinates" : "pkg:maven/org.apache.avro/avro@1.7.7",
+      "description" : "Avro core components",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/org.apache.avro/avro@1.7.7?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+      "vulnerabilities" : [ {
+        "id" : "CVE-2023-39410",
+        "displayName" : "CVE-2023-39410",
+        "title" : "[CVE-2023-39410] CWE-502: Deserialization of Untrusted Data",
+        "description" : "When deserializing untrusted or corrupted data, it is possible for a reader to consume memory beyond the allowed constraints and thus lead to out of memory on the system.\n\nThis issue affects Java applications using Apache Avro Java SDK up to and including 1.11.2.  Users should update to apache-avro version 1.11.3 which addresses this issue.\n\n",
+        "cvssScore" : 7.5,
+        "cvssVector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "cwe" : "CWE-502",
+        "cve" : "CVE-2023-39410",
+        "reference" : "https://ossindex.sonatype.org/vulnerability/CVE-2023-39410?component-type=maven&component-name=org.apache.avro%2Favro&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+        "externalReferences" : [ "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-39410", "https://github.com/apache/avro/pull/2432", "https://issues.apache.org/jira/browse/AVRO-3819", "https://lists.apache.org/thread/q142wj99cwdd0jo5lvdoxzoymlqyjdds" ]
+      } ]
+    },
+    "fr.turri:aXMLRPC:jar:1.13.0:test" : {
+      "coordinates" : "pkg:maven/fr.turri/aXMLRPC@1.13.0",
+      "description" : "Lightweight Java XML-RPC working also on Android.",
+      "reference" : "https://ossindex.sonatype.org/component/pkg:maven/fr.turri/aXMLRPC@1.13.0?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
+      "vulnerabilities" : [ {
+        "id" : "CVE-2020-36641",
+        "displayName" : "CVE-2020-36641",
+        "title" : "[CVE-2020-36641] CWE-611: Improper Restriction of XML External Entity Reference ('XXE')",
+        "description" : "A vulnerability classified as problematic was found in gturri aXMLRPC up to 1.12.0. This vulnerability affects the function ResponseParser of the file src/main/java/de/timroes/axmlrpc/ResponseParser.java. The manipulation leads to xml external entity reference. Upgrading to version 1.12.1 is able to address this issue. The patch is identified as ad6615b3ec41353e614f6ea5fdd5b046442a832b. It is recommended to upgrade the affected component. VDB-217450 is the identifier assigned to this vulnerability.\n\nSonatype's research suggests that this CVE's details differ from those defined at NVD. See https://ossindex.sonatype.org/vulnerability/CVE-2020-36641 for details",
         "cvssScore" : 9.8,
         "cvssVector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
         "cwe" : "CWE-611",
@@ -36,3 +1151,4 @@
     "reference" : "https://ossindex.sonatype.org/vulnerability/CVE-2023-4586?component-type=maven&component-name=io.netty%2Fnetty-handler&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
     "externalReferences" : [ "https://docs.oracle.com/javase/8/docs/api/javax/net/ssl/SSLParameters.html#setEndpointIdentificationAlgorithm-java.lang.String-", "https://github.com/netty/netty/issues/8537", "https://github.com/netty/netty/issues/9930", "https://netty.io/4.1/api/io/netty/handler/ssl/SslContext.html#newHandler-io.netty.buffer.ByteBufAllocator-java.util.concurrent.Executor-" ]
   } ]
+}
