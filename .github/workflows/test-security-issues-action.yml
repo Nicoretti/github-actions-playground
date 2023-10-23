@@ -1,13 +1,16 @@
-name: Security Issues
+name: Report Security Issues
 
 on:
   - push
 
 jobs:
 
-  playground:
+  report_security_issues:
+    
     name: Report Security Issues
+    
     runs-on: ubuntu-latest
+    
     permissions: 
       issues: write
 
@@ -15,13 +18,7 @@ jobs:
       - name: SCM Checkout
         uses: actions/checkout@v2
 
-      - name: Create fake input
-        run:  cat maven-output.json > report.json
-
-      - name: echo
-        run: cat report.json
-
-      - name: Process Security Issues
+      - name: Report Security Issues
         uses: exasol/python-toolbox/.github/actions/security-issues@feature/security-issues-action
         with:
           command: "cat maven-output.json"
