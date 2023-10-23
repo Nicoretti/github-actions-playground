@@ -23,3 +23,4 @@ jobs:
         uses: exasol/python-toolbox/.github/actions/security-issues@feature/security-issues-action
         with:
           command: "cat maven-output.json"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
