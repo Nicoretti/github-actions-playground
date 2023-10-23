@@ -6,7 +6,7 @@ on:
 jobs:
 
   playground:
-    name: Security Issues
+    name: Report Security Issues
     runs-on: ubuntu-latest
 
     steps:
