@@ -1,7 +1,7 @@
 name: Security Issues
 
 on:
-  -push
+  - push
 
 jobs:
 
