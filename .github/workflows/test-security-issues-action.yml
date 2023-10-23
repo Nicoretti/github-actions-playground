@@ -15,7 +15,7 @@ jobs:
 
       - name: Create fake input
         run: >
-          cat << EOF
+          cat
           {
             "reports" : {
               "net.bytebuddy:byte-buddy-agent:jar:1.14.8:test" : {
@@ -54,7 +54,7 @@ jobs:
               "reference" : "https://ossindex.sonatype.org/vulnerability/CVE-2023-4586?component-type=maven&component-name=io.netty%2Fnetty-handler&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1",
               "externalReferences" : [ "https://docs.oracle.com/javase/8/docs/api/javax/net/ssl/SSLParameters.html#setEndpointIdentificationAlgorithm-java.lang.String-", "https://github.com/netty/netty/issues/8537", "https://github.com/netty/netty/issues/9930", "https://netty.io/4.1/api/io/netty/handler/ssl/SslContext.html#newHandler-io.netty.buffer.ByteBufAllocator-java.util.concurrent.Executor-" ]
             } ]
-            EOF > report.json
+            > report.json
 
       - name: echo
         run: echo report.json
