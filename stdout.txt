@@ -1,1 +1,0 @@
-https://github.com/Nicoretti/github-actions-playground/issues/16
